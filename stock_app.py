@@ -1,16 +1,4 @@
 
-// Python Visual Display using Data Frames
-/*
-This code runs in a Zepl notebook.  We will publish the SHARE to the notebook when the US_Stocks database is available in the Snowflake Data Marketplace
-*/
-See Data Output (PDF)
-
-http://cdn-north-america.s3.amazonaws.com/Example_of_US_Stocks%20Visualization_Zepl_Data_Marketplace_Stocks_Database.pdf
-
-Notebook:
-https://www.zepl.com/viewer/notebooks/bm90ZTovL2dyb3ZlckB6ZXBsLmNvbS8zMTg2ZWZmMzI0N2I0ZjE4OGY5YTFkZjRkYzY1NzdmOS9ub3RlLmpzb24
-
-/// NOTEBOOK CODE EXAMPLE - PYTHON3 INTERPRETER
 
 connect = z.getDatasource("Stocks")
 
