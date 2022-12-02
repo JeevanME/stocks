@@ -1,7 +1,5 @@
 
 
-connect = z.getDatasource("Stocks")
-
 import pandas as pd
 res = connect.execute(f"select * from stock_history where symbol='{symbol}' and date > '2020-01-01' order by date")
 data = pd.DataFrame(res)
